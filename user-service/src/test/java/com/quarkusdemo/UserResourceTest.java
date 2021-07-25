@@ -15,7 +15,7 @@ public class UserResourceTest {
           .when().get("/user")
           .then()
              .statusCode(200)
-             .body(is("hello"));
+             .body(is("hello there!"));
     }
 
 }
